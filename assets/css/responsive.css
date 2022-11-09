@@ -1,0 +1,158 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 575px) { 
+.logo_section img{
+    width: clamp(7.1875rem, 4.4602rem + 14.5455vw, 9.6875rem);;
+}
+
+.logo_section{
+    width: clamp(6.25rem, 4.3409rem + 10.1818vw, 8rem);
+    float: left;
+}
+
+.header_section{
+  
+     justify-content: end !important;
+     flex-wrap: nowrap;
+     display: block !important;
+}
+
+
+
+
+
+#close_item {
+	display: none !important;
+}
+
+.section_left{
+    display: none;
+}
+
+.menu_icons > .navbar-nav {
+	flex-direction: revert;
+}
+
+
+
+
+.header_currency> button{
+    font-size: clamp(0.75rem, 0.6136rem + 0.7273vw, 0.875rem);
+}
+
+.header_currency{
+    width: clamp(4.4583125rem, 3.7083rem + 4vw, 5.1458125rem);
+    float: right;
+}
+
+.modal-dialog {
+	
+	max-width: 100% !important;
+}
+
+.res_dn{
+    display: none !important;
+}
+
+
+
+.menu1.navbar-nav > li > a:hover::after {
+	
+	width:0;
+}
+
+.menu1.navbar-nav > li > a:hover {
+	
+	color: var(--pink);
+}
+
+
+
+.section_right_menu > .navbar{
+
+
+    display: block !important;
+    overflow: hidden;
+    padding-left: 4px;
+
+}
+
+.menu_icons.d-flex.align-items-center {
+	float: right;
+
+}
+.header_currency ul {
+
+	left: 10px;
+	top: 43px;
+}
+
+.slider_section {
+	margin-left: 0 !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider_right_item {
+    margin-top: 30px;
+    height: 400px !important;
+}
+
+.menu_area {
+	
+	margin-bottom: 910px;
+}
+.res_mrgn{
+    padding-left: 0 !important;
+}
+
+.slider_bottom_area  .row {
+ 
+  
+     justify-content: center !important;
+
+}
+.slider_bottom_box{
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
